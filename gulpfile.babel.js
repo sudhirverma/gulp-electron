@@ -4,3 +4,5 @@ var gulp = require('gulp'),
 gulp.task('run', function(){
   return run('electron .').exec();
 });
+
+gulp.task('default', ['run'])
